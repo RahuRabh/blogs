@@ -1,0 +1,33 @@
+.header{
+    background-color: rgb(167, 241, 204);
+    width: auto;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 2%;
+}
+.branding h1{
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.btn{
+    background-color: rgb(167, 241, 204);
+    color: white;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: rgb(0, 128, 0);
+
+}

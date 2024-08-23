@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f0f0f0;
+}
+
+.mainContent {
+  flex: 1; /* Takes up the remaining space */
+  overflow-y: auto; /* Makes the content scrollable if it overflows */
+}
+
+header {
+  flex: 0 0 auto; /* Keeps the header fixed at the top */
+}
+
+footer {
+  flex: 0 0 auto; /* Keeps the footer fixed at the bottom */
+}

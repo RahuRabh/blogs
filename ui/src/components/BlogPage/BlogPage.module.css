@@ -1,0 +1,43 @@
+.blogPage {
+    display: flex;
+    height: auto; 
+    width: 100vw;
+    padding: 40px 20px 0px 20px;
+  }
+  
+  .blogCard {
+    background-color: #e7e2e2;
+    border-radius: 8px;
+    width: 95%; 
+    padding: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 20%);
+  }
+  
+  .blogCard h2 {
+    font-size: 24px;
+    color: black;
+  }
+  
+  .blogCard .content {
+    font-size: 18px;
+    color: black;
+  }
+  
+  .blogCard .author {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .blogCard .backButton {
+    background-color: #a1a9af;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .blogCard .backButton:hover {
+    background-color: #cec7c7;
+  }
+  
