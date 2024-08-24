@@ -4,8 +4,6 @@ const blogController = require("../controllers/blog");
 
 router.get("/getAllBlogs", blogController.getAllBlogs);
 
-router.get("/getBlogsByUser/:userId", blogController.getBlogsByUser);
-
 router.post("/createBlog", blogController.createBlog);
 
 router.put("/updateBlog/:blogId", blogController.updateBlog);

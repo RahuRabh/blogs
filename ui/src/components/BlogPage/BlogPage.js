@@ -18,7 +18,7 @@ export default function BlogPage() {
       <div className={styles.blogCard}>
         <h2>{blog.title}</h2>
         <p className={styles.content}>{blog.content}</p>
-        <p className={styles.author}>Author: </p>
+        {/* <p className={styles.author}>Author: </p> */}
         <button onClick={() => navigate(-1)} className={styles.backButton}>
           Back
         </button>  

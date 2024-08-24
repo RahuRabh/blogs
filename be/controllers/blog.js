@@ -11,15 +11,6 @@ const getAllBlogs = async (req, res) => {
   }
 };
 
-// Get Blog By User
-const getBlogsByUser = async (req, res) => {
-  try {
-    const userData = await Blog.find(req.params);
-    res.json(userData);
-  } catch (error) {
-    console.log(error);
-  }
-};
 
 //update Blog
 const updateBlog = async (req, res) => {
@@ -102,7 +93,6 @@ const deleteBlog = async (req, res) => {
 
 module.exports = {
   getAllBlogs,
-  getBlogsByUser,
   createBlog,
   updateBlog,
   deleteBlog,
